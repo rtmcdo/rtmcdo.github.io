@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "How to Overcome the Top 4 Cloud Management Challenges (with Azure)"
+subtitle: ""
 date: 2019-09-30 08:15:00 -0600
-background: '/img/posts/patrick-fore-0gkw_9fy0eQ-unsplash.jpg'
+background: '/img/posts/paul-frenzel-MnHQMzC6n-o-unsplash.jpg'
 ---
 
 _This is an excerpt from a [blog](https://www.10thmagnitude.com/overcome-cloud-management-challenges-with-azure/) article previously featured on 10th Magnitude.com._
@@ -90,9 +91,13 @@ It requires constant management to ensure that you’re not missing anything, wh
 In addition, there are several major customer trends driving new cloud management and security needs:
 
 **Modernization:** Spend is reduced with application and cloud modernization.
+
 **Scale:** Increased cloud adoption is driving the need to be better organized and governed.
+
 **Security:** The Cloud is now perceived as an asset in fighting evolving threats.
+
 **Transformation:** IT is transforming to play a more strategic role.
+
 
 ****
 
