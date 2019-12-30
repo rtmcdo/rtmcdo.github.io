@@ -10,7 +10,7 @@ github_username:    rtmcdo
 linkedin_username:  ryanmcdonald
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-47526955-2
 
 # Build settings
 markdown:           kramdown
