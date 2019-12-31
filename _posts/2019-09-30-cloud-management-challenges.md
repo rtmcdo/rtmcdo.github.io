@@ -98,4 +98,4 @@ Want to know how to address the top challenges? Continue on to the 10th Magnitud
 ****
 
 Credits:
-<p>Photo by Paul Frenzel on Unsplash <a href="https://unsplash.com/">Unsplash</a>.</p>
+<p>Photo by Paul Frenzel on <a href="https://unsplash.com/">Unsplash</a>.</p>
