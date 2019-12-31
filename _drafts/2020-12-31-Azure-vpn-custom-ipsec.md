@@ -1,20 +1,34 @@
 ---
 layout: post
-title: "CLI Commands to Create a Route Based Azure VPN with custom IPSEC parameters"
+title: "Create a Route Based Azure VPN with custom IPsec parameters"
+subtitle: "Using the Azure CLI"
 date: 2019-12-31 08:15:00 -0600
 background: '/img/posts/sander-weeteling-4I41IQtmSs0-unsplash.jpg'
 ---
 
 <h2 class="section-heading">Overview</h2>
 
-I recently setup a 
+I recently setup a VPN to a customers network that needed custom IPsec parameters. Below are the Azure CLI commands used to create the infrastructure. 
 
-``` yaml
+The workflow for the commands is as follows:
+
+1. Create a virtual network and a VPN gateway
+2. Create a local network gateway for cross premises connection
+3. Create a connection (IPsec) with the standard IPsec/IKE policy
+4. Add an IPsec/IKE policy with selected algorithms and parameters
+5. View/remove an IPsec/IKE policy for an existing connection
+
+
+<h2 class="section-heading">Base Configuration</h2>
+
+For our customers, we use a three-letter abbreviation (TLA) to identify the customer. In the example below, a variable sets the TLA that is used in the naming for the resources. 
+
+```console
 
 #set subscription
 az account set --subscription "Visual Studio Enterprise"
 
-#set some variables
+#set TLA variable
 tla="tla"
 
 #create resource group
@@ -45,10 +59,10 @@ az network vpn-connection create -g rg-$tla -n prd-$tla-vpn --vnet-gateway1 prd-
 ```
 At this point, you have all the required resources in place to configure the custom ipsec poliy. 
 
+![Configuration Dowload](/img/posts/azure-vpn-setup-custom-ipsec-2019-12-31 123827.png){:class="img-fluid"}
 
-
-
-Default IPsec/IKE parameters are as follows:
+<h2 class="section-heading">Custom IPsec Configuration</h2>
+For reference the default IPsec/IKE parameters for Azure connections are as follows:
 
 - IKE version:             IKEv2
     - Encryption algorithm:  aes-cbc-256
@@ -68,20 +82,20 @@ You can download the configuation from the connection.
 
 ![Configuration Dowload](/img/posts/vpn-download-configuration-2019-12-31 105731.png){:class="img-fluid"}
 
-To create the a custom policy, use the following command. The example below creates a customer connection with Diffie-Hellman group to 14, and the IKE Integrity algoritm to sha256. 
+To create the a custom policy, use the following command: 
 
-
-
-``` yaml
+``` console
 #create custom ipsec policy
 az network vpn-connection ipsec-policy add -g rg-$tla --connection-name prd-$tla-vpn \
     --dh-group DHGroup14 --ike-encryption AES256 --ike-integrity SHA256 --ipsec-encryption GCMAES256 \
     --ipsec-integrity GCMAES256 --pfs-group PFS14 --sa-lifetime 3600 --sa-max-size 1024
 ``` 
-The Azure [documentation](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell#part-2---supported-cryptographic-algorithms--key-strengths) has a full list of supported cryptographic algorithms and key strengths. 
+This example creates a custom connection with Diffie-Hellman group to 14, and the IKE Integrity algorithm set to sha256.
+
+The [Azure documentation](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell#part-2---supported-cryptographic-algorithms--key-strengths) has a full list of supported cryptographic algorithms and key strengths. 
 
 
-To view the current ipsec policy run the following command. 
+To view the current ipsec policy run the following command:
 
 ``` yaml
 #vpn ipsec list
@@ -91,12 +105,18 @@ az network vpn-connection ipsec-policy list -g rg-$tla --connection-name prd-$tl
 
 ![Policy List output](/img/posts/view-custom-policy-2019-12-31 105933.png){:class="img-fluid"}
 
-To clear the ipsec policy back to defaul, run the following command. 
+To clear the ipsec policy and reset it back to default, run the following command: 
 
 ``` yaml
 #clear custom ipsec policy
 az network vpn-connection ipsec-policy clear -g rg-$tla --connection-name prd-$tla-vpn
 ```
+
+<h2 class="section-heading">Wrapping Up</h2>
+
+As you can see from the commands, it's pretty straightforward to configure a customer IPsec policy. 
+
+[Click here](https://github.com/rtmcdo/azure-cli/blob/master/vpn-custom-ipsec.azcli) for a link to my GitHub repo with all of the commands in one AZCLI file. 
 
 ****
 Credits:
