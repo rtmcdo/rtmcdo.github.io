@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Overcome the Top 4 Cloud Management Challenges (with Azure)"
-subtitle: ""
+subtitle: "Cloud Advantages Bring Cloud Challenges"
 date: 2019-09-30 08:15:00 -0600
 background: '/img/posts/paul-frenzel-MnHQMzC6n-o-unsplash.jpg'
 ---
@@ -51,8 +51,6 @@ This allows a company’s scarce human capital to focus on data and applications
 
 The new world of comprehensive managed services will help you pinpoint opportunities and see danger in the road ahead. This enables companies to sharpen their agility and continue their digital transformation into the Cloud.
 
-
- 
 <h2 class="section-heading">Your Cloud Challenges (in detail) </h2>
 
 If you’ve moved to the Cloud, what does your cloud management world look like?
@@ -71,7 +69,7 @@ Take a look at the challenges listed below. Do any of them sound familiar?
 * Challenges finding a balance between speed and control
 * Lack of policy to enforce audit rules to ensure compliance
 * Diverse set of practices across business units
-
+ 
 **Management & Optimization**
 * Tools used inconsistently across the organization
 * Difficult to understand why spend is increasing
@@ -90,16 +88,14 @@ It requires constant management to ensure that you’re not missing anything, wh
 
 In addition, there are several major customer trends driving new cloud management and security needs:
 
-**Modernization:** Spend is reduced with application and cloud modernization.
+* **Modernization:** Spend is reduced with application and cloud modernization.
+* **Scale:** Increased cloud adoption is driving the need to be better organized and governed.
+* **Security:** The Cloud is now perceived as an asset in fighting evolving threats.
+* **Transformation:** IT is transforming to play a more strategic role.
 
-**Scale:** Increased cloud adoption is driving the need to be better organized and governed.
-
-**Security:** The Cloud is now perceived as an asset in fighting evolving threats.
-
-**Transformation:** IT is transforming to play a more strategic role.
-
+Want to know how to address the top challenges? Continue on to the 10th Magnitude [blog](https://www.10thmagnitude.com/overcome-cloud-management-challenges-with-azure/) to read more. 
 
 ****
 
 Credits:
-<p>Photo by Patrick Fore on Unsplash <a href="https://unsplash.com/">Unsplash</a>.</p>
+<p>Photo by Paul Frenzel on Unsplash <a href="https://unsplash.com/">Unsplash</a>.</p>
