@@ -116,8 +116,11 @@ az network vpn-connection ipsec-policy clear -g rg-$tla --connection-name prd-$t
 
 As you can see from the commands, it's pretty straightforward to configure a custom IPsec policy. The CLI commands make quick work of configuring the infrastructure and IPsec policy. 
 
-[Click here](https://ryanm.com/assets/downloads/vpn-custom-ipsec.azcli) to download all of the commands in one AZCLI file. 
+[Click here](https://raw.githubusercontent.com/rtmcdo/azure-cli/master/vpn-custom-ipsec.azcli download) to download all of the commands in one AZCLI file. 
 
+<a href="https://raw.githubusercontent.com/rtmcdo/azure-cli/master/vpn-custom-ipsec.azcli" download>Click here to download</a>
+
+[Download](/vpn-custom-ipsec.azcli)
 
 ****
 Credits:
