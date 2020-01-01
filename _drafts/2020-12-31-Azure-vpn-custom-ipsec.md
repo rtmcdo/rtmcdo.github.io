@@ -2,7 +2,7 @@
 layout: post
 title: "Create a Route Based Azure VPN with custom IPsec parameters"
 subtitle: "Using the Azure CLI"
-date: 2019-12-31 08:15:00 -0600
+date: 2019-01-03 08:15:00 -0600
 background: '/img/posts/sander-weeteling-4I41IQtmSs0-unsplash.jpg'
 ---
 
@@ -19,9 +19,9 @@ The workflow for the commands is as follows:
 5. View/remove an IPsec/IKE policy for an existing connection
 
 
-<h2 class="section-heading">Base Configuration</h2>
+<h2 class="section-heading">Getting into the Code</h2>
 
-For our customers, we use a three-letter abbreviation (TLA) to identify the customer. In the example below, a variable sets the TLA that is used in the naming for the resources. I'm also creating a VNet 
+For our customers, we use a three-letter abbreviation (TLA) to identify the customer. In the example below, a variable sets the TLA that is used in the naming for the resources. I've also include the commands to create a VNet for testing in a sandbox environment. 
 
 ```console
 
@@ -69,7 +69,7 @@ For reference the default IPsec/IKE parameters for Azure connections are as foll
     - Integrityalgorithm:    sha1
     - Diffie-Hellman group:  2
     - SA lifetime (seconds): 3600
-    - Pre-shared key:        changethiskey
+    - Pre-shared key:        
     - UsePolicyBasedTS:      False
 
 - IPsec
@@ -116,7 +116,8 @@ az network vpn-connection ipsec-policy clear -g rg-$tla --connection-name prd-$t
 
 As you can see from the commands, it's pretty straightforward to configure a custom IPsec policy. The CLI commands make quick work of configuring the infrastructure and IPsec policy. 
 
-[Click here](https://github.com/rtmcdo/azure-cli/blob/master/vpn-custom-ipsec.azcli) for a link to my GitHub repo with all of the commands in one AZCLI file. 
+[Click here](https://ryanm.com/assets/downloads/vpn-custom-ipsec.azcli) to download all of the commands in one AZCLI file. 
+
 
 ****
 Credits:
