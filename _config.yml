@@ -9,6 +9,11 @@ twitter_username:   rtmcdo
 github_username:    rtmcdo
 linkedin_username:  ryanmcdonald
 
+# SEO Twitter
+twitter:
+  username: rtmcdo
+  card: summary
+
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-47526955-2
 
@@ -20,3 +25,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-seo-tag

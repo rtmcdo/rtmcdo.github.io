@@ -4,6 +4,7 @@ title: "How to Overcome the Top 4 Cloud Management Challenges (with Azure)"
 subtitle: "Cloud Advantages Bring Cloud Challenges"
 date: 2019-09-30 08:15:00 -0600
 background: '/img/posts/paul-frenzel-MnHQMzC6n-o-unsplash.jpg'
+image: '/img/posts/paul-frenzel-MnHQMzC6n-o-unsplash.jpg'
 ---
 
 _This is an excerpt from a [blog](https://www.10thmagnitude.com/overcome-cloud-management-challenges-with-azure/) article previously featured on 10th Magnitude.com._
