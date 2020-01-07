@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Create a Route Based Azure VPN with custom IPsec parameters"
+title: "Create a Route Based Azure VPN with Custom IPsec Parameters"
 subtitle: "Using the Azure CLI"
-date: 2019-01-03 08:15:00 -0600
+date: 2020-01-07 05:15:00 -0600
 background: '/img/posts/sander-weeteling-4I41IQtmSs0-unsplash.jpg'
+image: '/img/posts/sander-weeteling-4I41IQtmSs0-unsplash.jpg'
 ---
 
 <h2 class="section-heading">Overview</h2>
@@ -13,7 +14,7 @@ I recently set up a VPN to a customer network that needed custom IPsec parameter
 The workflow for the commands is as follows:
 
 1. Create a virtual network and a VPN gateway
-2. Create a local network gateway for cross-premises connection
+2. Create a local network gateway for the cross-premises connection
 3. Create a connection (IPsec) with the standard IPsec/IKE policy
 4. Add an IPsec/IKE policy with selected algorithms and parameters
 5. View/remove an IPsec/IKE policy for an existing connection
@@ -21,7 +22,7 @@ The workflow for the commands is as follows:
 
 <h2 class="section-heading">Getting into the Code</h2>
 
-For our customers, we use a three-letter abbreviation (TLA) to identify the customer. In the example below, a variable sets the TLA that is used in the naming for the resources. I've also include the commands to create a VNet for testing in a sandbox environment. 
+For our customers, we use a three-letter abbreviation (TLA) to identify the customer. In the example below, a variable sets the TLA that is used in the naming for the resources. I've also included the commands to create a VNet for testing in a sandbox environment. 
 
 ```console
 
