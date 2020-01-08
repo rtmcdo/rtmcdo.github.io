@@ -79,11 +79,11 @@ For reference the default IPsec/IKE parameters for Azure connections are as foll
     - PFS Group:             none
     - SA lifetime (seconds): 3600
 
-You can download the configuration from the connection. 
+You can download the configuration from the Connection in Azure. 
 
 ![Configuration Dowload](/img/posts/vpn-download-configuration-2019-12-31 105731.png){:class="img-fluid"}
 
-To create the a custom policy, use the following command: 
+To create the custom policy, use the following command: 
 
 ``` console
 #create custom ipsec policy - change as required
@@ -96,7 +96,7 @@ This example creates a custom connection with Diffie-Hellman group to 14, and th
 The [Azure documentation](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-ipsecikepolicy-rm-powershell#part-2---supported-cryptographic-algorithms--key-strengths) has a full list of supported cryptographic algorithms and key strengths. 
 
 
-To view the current ipsec policy run the following command:
+To view the current IPsec policy run the following command:
 
 ``` yaml
 #vpn ipsec list
@@ -106,7 +106,7 @@ az network vpn-connection ipsec-policy list -g rg-$tla --connection-name prd-$tl
 
 ![Policy List output](/img/posts/view-custom-policy-2019-12-31 105933.png){:class="img-fluid"}
 
-To clear the ipsec policy and reset it back to default, run the following command: 
+To clear the IPsec policy and reset it back to default, run the following command: 
 
 ``` yaml
 #clear custom ipsec policy
