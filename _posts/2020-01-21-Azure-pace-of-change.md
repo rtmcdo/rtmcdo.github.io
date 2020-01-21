@@ -19,7 +19,7 @@ For a previous [blog post](https://www.10thmagnitude.com/overcome-cloud-manageme
 
 As you can see, updates in 2019 (1165) outpaced updates in 2018 (849) and were up by 37.22%. 
 
-I would assume Microsoft has improved its internal processes to ensure that all updates are getting published, so that might account from some of the increase. Regardless the 2019 updates average out to over three updates per day! 
+I would assume Microsoft has improved its internal processes to ensure that all updates are getting published, which may account for some of the increase. Regardless, the 2019 updates average out to over three updates per day! 
 
 For fun, I made a word cloud of the 2019 updates at [Wordclouds.com](https://www.wordclouds.com/). 
 
