@@ -19,7 +19,7 @@ For a previous [blog post](https://www.10thmagnitude.com/overcome-cloud-manageme
 
 As you can see, updates in 2019 (1165) outpaced updates in 2018 (849) and were up by 37.22%. 
 
-I would assume Microsoft has improved its internal processes to ensure that all updates are getting published, regardless the 2019 updates average out to over three updates per day! 
+I would assume Microsoft has improved its internal processes to ensure that all updates are getting published, so that might account from some of the increase. Regardless the 2019 updates average out to over three updates per day! 
 
 For fun, I made a word cloud of the 2019 updates at [Wordclouds.com](https://www.wordclouds.com/). 
 
@@ -31,7 +31,7 @@ I also ran similar python code to export all of the service names from this [pag
 
 <h2 class="section-heading">New services I'm excited about that came out in 2019</h2>
 
-From and I&O perspective below are some of the services that caught my eye this year. 
+From an I&O perspective below are some of the services that caught my eye this year. 
 
 - [Azure Firewall](https://docs.microsoft.com/en-us/azure/firewall/overview)
 - [Azure Sentinal](https://azure.microsoft.com/en-us/services/azure-sentinel/)
@@ -43,7 +43,7 @@ From and I&O perspective below are some of the services that caught my eye this 
 I'm looking foward to continued enhancements in Azure Firewall, Sentinel, and Bastion Host. I'm also excited to see how Azure Arc matures. Extending Azure's management capability to other clouds and on-premises could signifigantly improve management in distributed environments. 
 
 <h2 class="section-heading">Cloud Adoption Framework</h2>
-Outside of all platform updates and new services, I think one of the most significant developments in 2019 from Microsoft, was the release of the Cloud Adoption Framework. 
+Outside of all platform updates and new services, I think one of the most significant developments in 2019 from Microsoft was the release of the Cloud Adoption Framework. 
 
 If you aren’t familiar with the Cloud Adoption Framework (CAF) here is Microsoft's description from the documentation:
 
