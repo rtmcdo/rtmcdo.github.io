@@ -51,7 +51,7 @@ If you aren’t familiar with the Cloud Adoption Framework (CAF) here is Microso
 
 CAF covers the full lifecycle of cloud, but from an operations perspective, I have been focusing on the Govern and Manage sections. One particular area of interest is the "Five Disciplines of Cloud Governance."
 
-![Five Disciplines of Cloud Governance](/img/posts/Azure-caf.png){:class="img-fluid"}
+![Five Disciplines of Cloud Governance](/img/posts/azure-caf.png){:class="img-fluid"}
 
 From an operations perspecive these are areas where we see companies struggle. In future blog posts, I will be digging into each of the five areas in more detail, so stay tuned!
 
