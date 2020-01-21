@@ -4,6 +4,7 @@ title: "Azure Pace of Change"
 subtitle: "Analysis of 2019 Azure Services and Updates"
 date: 2020-01-21 05:15:00 -0600
 background: '/img/posts/chris-lawton-5IHz5WhosQE-unsplash.jpg'
+image: '/img/posts/chris-lawton-5IHz5WhosQE-unsplash.jpg'
 ---
 <h2 class="section-heading">Introduction</h2>
 
