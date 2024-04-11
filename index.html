@@ -14,31 +14,22 @@
             background: white;
             color: #333;
         }
-        .hero {
-            background: url('https://media.licdn.com/dms/image/D5603AQGgpNJTnyzAQg/profile-displayphoto-shrink_800_800/0/1693325036374?e=1718236800&v=beta&t=PR-MI72bBL2NSKKxx8nI3mHoZ03OXOZTP3QPVI4jT-Y') no-repeat center center;
-            background-size: cover;
-            height: 100vh;
+        .banner {
+            background-color: #007BFF; /* Blue background for the banner */
             color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+            padding: 10px 0;
             text-align: center;
         }
-        .hero h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
-        .hero p {
-            font-size: 1.5rem;
-            font-weight: 300;
+        .profile-img {
+            width: 150px; /* Smaller image */
+            height: 150px;
+            border-radius: 50%; /* Makes the image round */
+            border: 4px solid white; /* White border around the image */
+            margin-top: -75px; /* Half outside the banner */
         }
         .section {
             padding: 40px 20px;
             text-align: center;
-        }
-        .blue {
-            color: #007BFF;
         }
         footer {
             text-align: center;
@@ -47,16 +38,17 @@
             background: #F0F0F0;
         }
         a {
-            color: #007BFF;
+            color: white;
             text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <div class="hero">
+    <div class="banner">
         <h1>Ryan McDonald</h1>
         <p>Principal Program Manager at Microsoft Security</p>
     </div>
+    <img class="profile-img" src="https://media.licdn.com/dms/image/D5603AQGgpNJTnyzAQg/profile-displayphoto-shrink_800_800/0/1693325036374?e=1718236800&v=beta&t=PR-MI72bBL2NSKKxx8nI3mHoZ03OXOZTP3QPVI4jT-Y" alt="Ryan McDonald">
     <div class="section">
         <h2>About Me</h2>
         <p>I work at Microsoft as a Principal Program Manager in Microsoft Security. Previously, I was a Senior Vice President of Services at 10th Magnitude, acquired by Cognizant in 2020. I bring 20+ years of infrastructure, operations, and security experience to the Microsoft tech stack.</p>
