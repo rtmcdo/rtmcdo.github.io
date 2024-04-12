@@ -9,7 +9,6 @@ excerpt: "Insert exerpt here."
 ---
 
 
-
 ## Features
 
 - Available as a **theme gem** and **GitHub Pages** theme
