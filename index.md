@@ -1,5 +1,5 @@
 ---
-title: Home
+title: ryanm.com
 hide_title: true
 feature_text: |
   ## Ryan McDonald
