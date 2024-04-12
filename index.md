@@ -4,7 +4,7 @@ hide_title: true
 feature_text: |
   ## Ryan McDonald
   Program Manager @ Microsoft Security
-feature_image: "https://picsum.photos/1300/400?image=989"
+feature_image: "(https://picsum.photos/2560/600?image=866)"
 excerpt: "Insert exerpt here."
 ---
 
@@ -18,10 +18,10 @@ My background is 20+ years of infrastructure, operations, and security experienc
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a37bf73e-e27b-4907-9c51-e0b919fc7d2e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="09975ef4-4b9a-44ff-8ad6-5b9167d51d28" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a800cb97-7b60-4f8f-bb8d-9748dd7a8c8c" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-![Cybersecurity Architect](cybersecurityarchitect.png)
+[![Cybersecurity Architect](/assets/logos/cybersecurityarchitect.png)](https://learn.microsoft.com/api/credentials/share/en-us/RyanMcDonald-3668/CB822B4C766EBFA3?sharingId=B503FADD74F1EA11)
 
 [View my certification](https://learn.microsoft.com/api/credentials/share/en-us/RyanMcDonald-3668/CB822B4C766EBFA3?sharingId=B503FADD74F1EA11)
-https://learn.microsoft.com/api/credentials/share/en-us/RyanMcDonald-3668/CB822B4C766EBFA3?sharingId=B503FADD74F1EA11
+
 
 When I'm not working, I enjoy spending time with my wife and kids, watching <a href="https://www.manutd.com/">Manchester United</a>, running, reading, and watching movies or tv shows.
 
