@@ -1,5 +1,5 @@
 ---
-title: Ryan McDonald
+title: ryanm.com
 feature_text: |
   ## Ryan McDonald
   Program Manager @ Microsoft Security
