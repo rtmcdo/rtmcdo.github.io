@@ -1,5 +1,6 @@
 ---
 title: Home
+hide_title: true
 feature_text: |
   ## Ryan McDonald
   Program Manager @ Microsoft Security
