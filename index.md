@@ -8,9 +8,9 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "Insert exerpt here."
 ---
 
-##Hello world!
+## Hello world!
 
-<My name is Ryan McDonald, and I work at Microsoft as a Principal Program Manager in Microsoft Security. Previous to working for Micorosft, I was a Senior Vice President of Services at <a href="https://www.10thmagnitude.com/">10th Magnitude</a> which was acquired by Cognizant in 2020.
+My name is Ryan McDonald, and I work at Microsoft as a Principal Program Manager in Microsoft Security. Previous to working for Micorosft, I was a Senior Vice President of Services at <a href="https://www.10thmagnitude.com/">10th Magnitude</a> which was acquired by Cognizant in 2020.
 
 My background is 20+ years of infrastructure, operations, and security experience in the Microsoft tech stack delivering technical leadership, vision, and a wide range of functions for start-up, high growth, and enterprise organizations
 
@@ -21,6 +21,6 @@ My background is 20+ years of infrastructure, operations, and security experienc
 
 When I'm not working, I enjoy spending time with my wife and kids, watching <a href="https://www.manutd.com/">Manchester United</a>, running, reading, and watching movies or tv shows.
 
-
+https://learn.microsoft.com/api/credentials/share/en-us/RyanMcDonald-3668/CB822B4C766EBFA3?sharingId=B503FADD74F1EA11
 
 
