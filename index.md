@@ -4,7 +4,7 @@ hide_title: true
 feature_text: |
   ## Ryan McDonald
   Program Manager @ Microsoft Security
-feature_image: "(https://picsum.photos/2560/600?image=866)"
+feature_image: "https://picsum.photos/2560/600?image=866"
 excerpt: "Insert exerpt here."
 ---
 
