@@ -16,7 +16,7 @@ My background is 20+ years of infrastructure, operations, and security experienc
 
 <p>Certifications</p>
 <a href="https://learn.microsoft.com/api/credentials/share/en-us/RyanMcDonald-3668/CB822B4C766EBFA3?sharingId=B503FADD74F1EA11" target="_blank">
-  <img src="/assets/logos/cybersecurityarchitect.png" alt="Cybersecurity Architect" style="width:150px;height:270px;">
+  <img src="/assets/logos/cybersecurityarchitect.png" alt="Cybersecurity Architect" style="width:150px;">
 </a>
 
 
